@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<meta name="author" content="Ricardo Orozco Calle">
+	<meta name=”description” content="Prueba Final, Módulo 1 - Desarrollo Web"/>
+	<title>Hoja de Vida</title>
+</head>
+<body>
+	<header>
+		<!--Imagen SVG generada en Drawing SVG (http://www.drawsvg.org/drawsvg.html)-->
+		<svg width="240px" height="160px"> 
+			<image xlink:href="./../img/Logo_Ricardo.svg" x="0" y="0" width="240" height="160"></image>
+		</svg>
+		<h1>Hoja de Vida - Educación</h1>		
+	</header>
+	<table>
+		<tr align="center">
+			<td><h2>Nombre y</br>Apellidos</h2></td>
+			<td><h2>&nbsp;Ricardo</br>&nbsp;Orozco Calle</h2></td>			
+		</tr>
+		<tr align="center">
+			<td><h3>Fecha y Lugar de</br>Nacimiento:</br></h3></td>
+			<td><h3>02/02/1996</br>&nbsp;Itag&uuml;&iacute; - Antioquia - Colombia</h3></td>
+		</tr>
+	</table>
+	</br>
+	<nav>
+		<a href="./../index.html"><strong><font size="5">Inicio</font></strong></a>
+		<strong><font size="5"> | </font></strong>
+		<a href="./educacion.html"><strong><font size="5">Educaci&oacute;n</font></strong></a>
+		<strong><font size="5"> | </font></strong>
+		<a href="./experiencia.html"><strong><font size="5">Experiencia</font></strong></a>
+	</nav>
+	<section>
+		<h2>Educaci&oacute;n</h2>
+		<article>
+			<table border="1" cellpadding="10" cellspacing="0">
+				<tr align="center">
+					<th>Año</th>
+					<th>Instituci&oacute;n</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>
+				</tr>
+				<tr align="center">
+					<td>2013</td>
+					<td>IE María Jesús Mejía</td>
+					<td>Itag&uuml;&iacute;</br>Antioquia - Colombia</td>
+					<td>Si</td>
+				</tr>
+				<tr align="center">
+					<td>2018</td>
+					<td>Polit&eacute;cnico Colombiano</br>Jaime Isaza Cadavid</td>
+					<td>Medell&iacute;n</br>Antioquia - Colombia</td>
+					<td>Si</td>
+				</tr>
+			</table>
+		</article>
+		<article>
+			<h2>Agregar Estudios</h2>
+			<form>
+				<p>
+					<label for="iput_Año">Año:</label>
+					<input type="number" max="2019" min="1950" name="iput_Año" id="iput_Año" placeholder="Ej: 1998" required>
+				</p>
+				<p>
+					<label for="iput_Institucion">Instituci&oacute;n</label>
+					<input type="text" name="iput_Institucion" id="iput_Institucion" placeholder="Ej:Universidad de Medellín" required><br>
+				</p>
+				<p>
+					<label for="iput_Lugar">Lugar</label>
+					<textarea name="iput_Lugar" id="iput_Lugar" cols="30" rows="3"></textarea>
+				</p>
+				<p>
+					<input type="submit" name="btn_Enviar" value="Enviar">
+				</p>
+			</form>
+		</article>
+	</section>
+	<hr>
+	<footer>
+		<table>
+			<tbody><tr>
+				<!--Iconos tomados de Blogger Interactivo (https://bloggerinteractivo.com/iconos/iconos-redes-sociales/)-->
+				<td align="center">
+					<a href="https://api.whatsapp.com/send?phone=573193580634" target="_blank">
+						<img alt="¡Escribeme a Whatsapp!" src="./../img/iconos/whatsapp.png" title="¡Escríbeme a Whatsapp!" width="35" height="35">
+					</a>
+				</td>	
+				<td align="center">
+					<a href="https://www.linkedin.com/in/ricardoorozcocalle/" target="_blank">
+						<img alt="¡Sígueme en Linkedin!" src="./../img/iconos/linkedin.png" title="¡Sígueme en Linkedin!" width="35" height="35">
+					</a>
+				</td>
+				<td align="center">
+					<a href="https://twitter.com/RicardoOr_c" target="_blank">
+						<img alt="¡Sigueme en Twitter!" src="./../img/iconos/twitter.png" title="¡Sígueme en Twitter!" width="35" height="35">
+					</a>
+				</td>
+				<td align="center">
+					<a href="https://www.facebook.com/DonROrozco" target="_blank">
+						<img alt="¡Sígueme en Facebook" src="./../img/iconos/facebook.png" title="¡Sígueme en Facebook!" width="35" height="35">
+					</a>
+				</td>
+			</tr>
+			<tr>
+				<td align="center"><font size="4"><strong>&nbsp;(+57) 319-358-0634&nbsp;</strong></font></td>
+				<td align="center"><font size="4"><strong>&nbsp;/ricardoorozcalle&nbsp;</strong></font></td>
+				<td align="center"><font size="4"><strong>&nbsp;@RicardoOr_c&nbsp;</strong></font></td>
+				<td align="center"><font size="4"><strong>&nbsp;/DonROrozco&nbsp;</strong></font></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="center">
+					<a href="mailto:ricardoorozcalle@gmail.com">
+						<img alt="¡Escribeme al Email!" src="./../img/iconos/email.png" title="¡Escríbeme al Email!" width="35" height="35">
+					</a>
+				</td>				
+				<td colspan="2" align="center">
+					<a href="https://goo.gl/maps/DaB33MuB6uF2" target="_blank">
+						<img alt="¡Ubícanos en la Dirección!" src="./../img/iconos/direccion.png" title="¡Ubícanos en la Dirección!" width="35" height="35">
+					</a>
+				</td>			
+			</tr>
+			<tr>				
+				<td colspan="2" align="center">
+					<font size="4">
+						<strong>
+							ricardoorozcalle@outlook.com<br>
+							ricardoorozcalle@gmail.com
+						</strong>
+					</font>
+				</td>
+				<td colspan="2" align="center">
+					<font size="4">
+						<strong>
+							Itagüí - Antioquia - Colombia&nbsp;
+						</strong>
+					</font>
+				</td>
+			</tr>
+		</tbody></table>	
+	</footer>
+</body>
+</html>
